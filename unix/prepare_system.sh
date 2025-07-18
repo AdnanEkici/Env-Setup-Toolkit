@@ -61,7 +61,7 @@ show_summary() {
     echo "   - cmake"
     echo "   - htop"
     echo "   - code"
-    ecgo "   - curl"
+    echo "   - curl"
     echo "   - tmux"
     echo "   - install_oh_my_bash"
     echo
@@ -131,6 +131,7 @@ qtbase5-dev
 gdb
 libgl1
 cmake
+tmux
 htop
 EOF
 
