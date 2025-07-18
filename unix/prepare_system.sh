@@ -52,6 +52,7 @@ show_summary() {
     echo "   - net-tools"
     echo "   - git"
     echo "   - openssh-server"
+    echo "   - openssh-client"
     echo "   - nano"
     echo "   - wget"
     echo "   - qtbase5-dev"
@@ -60,6 +61,7 @@ show_summary() {
     echo "   - cmake"
     echo "   - htop"
     echo "   - code"
+    ecgo "   - curl"
     echo "   - tmux"
     echo "   - install_oh_my_bash"
     echo
@@ -121,8 +123,10 @@ libssl-dev
 net-tools
 git
 openssh-server
+openssh-client
 nano
 wget
+curl
 qtbase5-dev
 gdb
 libgl1
